@@ -1,60 +1,83 @@
-<h1 align="center">Hi 👋, I'm Noman Khan</h1>
-<h3 align="center">AI Engineering Student | ML Enthusiast | Future AI Engineer</h3>
+<h1 align="center">🤖 Noman Khan</h1>
+<h3 align="center">AI Engineering Student | Machine Learning Enthusiast | Future AI Engineer</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI%20Enthusiast-00FFFF?style=for-the-badge&logo=icloud&logoColor=black" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-8A2BE2?style=for-the-badge&logo=tensorflow" />
+  <img src="https://img.shields.io/badge/Python%20Coder-FFD43B?style=for-the-badge&logo=python&logoColor=black" />
+</p>
+
+---
 
 <p align="center">
   <a href="https://github.com/Noman-khan25">
-    <img src="https://img.shields.io/badge/GitHub-Noman--khan25-181717?style=for-the-badge&logo=github" alt="GitHub Badge"/>
+    <img src="https://img.shields.io/badge/GitHub-Noman--khan25-000000?style=for-the-badge&logo=github" />
   </a>
-  <a href="https://www.linkedin.com/in/noman-khan25">
-    <img src="https://img.shields.io/badge/LinkedIn-Noman%20Khan-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn Badge"/>
+  <a href="https://www.linkedin.com/in/your_linkedin">
+    <img src="https://img.shields.io/badge/LinkedIn-Noman%20Khan-0A66C2?style=for-the-badge&logo=linkedin" />
   </a>
   <a href="https://www.instagram.com/nomankhann123">
-  <img src="https://img.shields.io/badge/Instagram-@nomankhann123-E4405F?style=for-the-badge&logo=instagram" alt="Instagram Badge"/>
+    <img src="https://img.shields.io/badge/Instagram-@nomankhann123-E4405F?style=for-the-badge&logo=instagram" />
   </a>
 </p>
 
 ---
 
-### 🚀 About Me
-- 🔭 Currently learning *AI Engineering & Machine Learning*
-- 🌱 Exploring *Deep Learning, Neural Networks & Python Automation*
-- 🤖 Passionate about building *intelligent systems*
-- 💡 Love solving problems with *Data + AI*
+## 🌌 About Me  
+🚀 AI Engineering student exploring the future of Machine Learning  
+🧠 Working on neural networks, chatbots & automation  
+⚡ Obsessed with futuristic tech & intelligent systems  
+💡 Passion: “Turning ideas into AI-powered solutions”
 
 ---
 
-### 🧠 Tech Skills
-*Programming & Tools*  
-Python | NumPy | Pandas | Matplotlib | Seaborn | Scikit-learn | TensorFlow | PyTorch | Jupyter Notebook | Git & GitHub  
+## 🔥 AI Skills & Tech Stack  
+### *Languages & Tools*
+🔹 Python  
+🔹 NumPy | Pandas  
+🔹 Matplotlib | Seaborn  
+🔹 Scikit-learn  
+🔹 TensorFlow | PyTorch (Beginner)  
+🔹 Git | GitHub  
+🔹 Jupyter Notebook  
 
-*AI/ML Concepts*  
-Machine Learning | Deep Learning | Neural Networks | NLP | Computer Vision | Model Evaluation | Data Preprocessing  
+### *AI Concepts*
+✨ Machine Learning  
+✨ Deep Learning Basics  
+✨ Neural Networks  
+✨ NLP (Chatbots)  
+✨ Model Training & Evaluation  
+✨ Data Preprocessing  
 
 ---
 
-### 📌 Current Projects
-- 🤖 *AI Chat Assistant* – Intelligent chatbot using NLP  
-- 🧠 *Classification Models* – Image & data classification projects  
-- 🔍 *ANN (Artificial Neural Network)* – Basics of neural networks  
-- 📂 More AI projects coming soon…
+## ⚙ Current AI Projects
+🧠 *ANN Model* – basic neural network  
+🤖 *AI Chat Assistant* – NLP based chatbot  
+📊 *ML Classification Models*  
+🛠 More AI projects on the way…  
 
 ---
 
-### 📊 GitHub Stats
+## 🚀 GitHub Analytics
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Noman-khan25&show_icons=true&theme=dark&count_private=true" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Noman-khan25&layout=compact&theme=dark" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Noman-khan25&show_icons=true&theme=tokyonight" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Noman-khan25&layout=compact&theme=tokyonight" height="160"/>
 </p>
 
 ---
 
-### ⚡ Fun Fact
-I enjoy learning new technologies, building AI projects, and exploring innovative solutions 🤖💡
+## 🌐 Futuristic Typing Banner
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=500&color=00FFFF&center=true&vCenter=true&width=500&lines=AI+Engineer+in+Progress...;Learning+Neural+Networks...;Building+Intelligent+Systems...;Exploring+Futuristic+Tech..." />
+</p>
 
 ---
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=500&color=00FF00&center=true&vCenter=true&width=500&lines=Exploring+AI+one+algorithm+at+a+time...">
-</p>
+## ⭐ Fun Fact  
+I’m building my future one AI model at a time ⚡🤖
 
-*⭐ If you like my work, feel free to star my repositories!*
+---
+
+<p align="center"><b>⭐ If you like my work, drop a star on my repositories!</b></p>
