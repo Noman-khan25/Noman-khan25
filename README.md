@@ -1,6 +1,18 @@
 <h1 align="center">Hi 👋, I'm Noman Khan</h1>
 <h3 align="center">AI Engineering Student | ML Enthusiast | Future AI Engineer</h3>
 
+<p align="center">
+  <a href="https://github.com/Noman-khan25">
+    <img src="https://img.shields.io/badge/GitHub-Noman--khan25-181717?style=for-the-badge&logo=github" alt="GitHub Badge"/>
+  </a>
+  <a href="https://www.linkedin.com/in/your_linkedin">
+    <img src="https://img.shields.io/badge/LinkedIn-Noman%20Khan-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn Badge"/>
+  </a>
+  <a href="https://www.instagram.com/your_instagram">
+    <img src="https://img.shields.io/badge/Instagram-@your_username-E4405F?style=for-the-badge&logo=instagram" alt="Instagram Badge"/>
+  </a>
+</p>
+
 ---
 
 ### 🚀 About Me
@@ -31,21 +43,24 @@
 ---
 
 ### 📌 Current Projects
-- 🤖 *AI Chat Assistant*
-- 🧠 *Classification Models*
-- 🔍 *ANN (Artificial Neural Network)*
+- 🤖 *AI Chat Assistant* – Intelligent chatbot using NLP  
+- 🧠 *Classification Models* – Image & data classification projects  
+- 🔍 *ANN (Artificial Neural Network)* – Basics of neural networks  
 - 📂 More AI projects coming soon…
 
 ---
 
-### 📫 Connect with me:
-- LinkedIn:[Noman Khan]www.linkedin.com/in/noman-khan25
+### 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Noman-khan25&show_icons=true&theme=dark&count_private=true" alt="GitHub Stats"/>
+</p>
 
 ---
 
-### ⚡ Fun Fact:
+### ⚡ Fun Fact
 I enjoy learning new technologies and building cool AI projects.
 
 ---
 
 *⭐ If you like my work, feel free to star my repositories!*
+
