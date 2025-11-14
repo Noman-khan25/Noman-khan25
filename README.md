@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-Noman%20Khan-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn Badge"/>
   </a>
   <a href="https://www.instagram.com/your_instagram">
-    <img src="https://img.shields.io/badge/Instagram-@your_username-E4405F?style=for-the-badge&logo=instagram" alt="Instagram Badge"/>
+    <img src="https://img.shields.io/badge/Instagram-@nomankhann123-E4405F?style=for-the-badge&logo=instagram" alt="Instagram Badge"/>
   </a>
 </p>
 
@@ -23,22 +23,12 @@
 
 ---
 
-### 🧠 Tech Skills (AI Engineering Focus)
-*Programming & Tools*
-- Python  
-- NumPy, Pandas  
-- Matplotlib, Seaborn  
-- Scikit-learn  
-- TensorFlow / PyTorch (beginner level)  
-- Jupyter Notebook  
-- Git & GitHub  
+### 🧠 Tech Skills
+*Programming & Tools*  
+Python | NumPy | Pandas | Matplotlib | Seaborn | Scikit-learn | TensorFlow | PyTorch | Jupyter Notebook | Git & GitHub  
 
-*AI/ML Concepts*
-- Machine Learning Models  
-- Data Preprocessing  
-- Model Evaluation  
-- Neural Networks Basics  
-- Training & Testing Pipelines  
+*AI/ML Concepts*  
+Machine Learning | Deep Learning | Neural Networks | NLP | Computer Vision | Model Evaluation | Data Preprocessing  
 
 ---
 
@@ -53,14 +43,18 @@
 ### 📊 GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Noman-khan25&show_icons=true&theme=dark&count_private=true" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Noman-khan25&layout=compact&theme=dark" alt="Top Languages"/>
 </p>
 
 ---
 
 ### ⚡ Fun Fact
-I enjoy learning new technologies and building cool AI projects.
+I enjoy learning new technologies, building AI projects, and exploring innovative solutions 🤖💡
 
 ---
 
-*⭐ If you like my work, feel free to star my repositories!*
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=500&color=00FF00&center=true&vCenter=true&width=500&lines=Exploring+AI+one+algorithm+at+a+time...">
+</p>
 
+*⭐ If you like my work, feel free to star my repositories!*
