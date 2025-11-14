@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-Noman%20Khan-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn Badge"/>
   </a>
   <a href="https://www.instagram.com/@nomankhann123">
-    <img src="https://img.shields.io/badge/Instagram-@nomankhann123-E4405F?style=for-the-badge&logo=instagram" alt="Instagram Badge"/>
+    <img src="https://img.shields.io/badge/Instagram-@your_username-E4405F?style=for-the-badge&logo=instagram" alt="Instagram Badge"/>
   </a>
 </p>
 
