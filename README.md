@@ -8,7 +8,7 @@
   <a href="https://www.linkedin.com/in/noman-khan25">
     <img src="https://img.shields.io/badge/LinkedIn-Noman%20Khan-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn Badge"/>
   </a>
-  <a href="https://www.instagram.com/nomankhann123">
+  <a href="https://www.instagram.com/@nomankhann123">
     <img src="https://img.shields.io/badge/Instagram-@nomankhann123-E4405F?style=for-the-badge&logo=instagram" alt="Instagram Badge"/>
   </a>
 </p>
