@@ -5,7 +5,7 @@
   <a href="https://github.com/Noman-khan25">
     <img src="https://img.shields.io/badge/GitHub-Noman--khan25-181717?style=for-the-badge&logo=github" alt="GitHub Badge"/>
   </a>
-  <a href="https://www.linkedin.com/in/your_linkedin">
+  <a href="https://www.linkedin.com/in/noman-khan25">
     <img src="https://img.shields.io/badge/LinkedIn-Noman%20Khan-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn Badge"/>
   </a>
   <a href="https://www.instagram.com/your_instagram">
