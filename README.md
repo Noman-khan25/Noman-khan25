@@ -1,19 +1,29 @@
 <h1 align="center">Noman Khan</h1>
-<h3 align="center">AI Engineering Student | Machine Learning Enthusiast | Aspiring AI Engineer</h3>
+<h3 align="center">Artificial Intelligence Engineering Student | Machine Learning Enthusiast | Aspiring AI Engineer</h3>
 
 <p align="center">
-  <a href="https://github.com/Noman-khan25">GitHub</a> •
-  <a href="https://www.linkedin.com/in/noman-khan25">LinkedIn</a> •
-  <a href="https://www.instagram.com/nomankhann123">Instagram</a>
+  <a href="https://github.com/Noman-khan25">
+    <img src="https://img.shields.io/badge/GitHub-Noman--khan25-black?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://www.linkedin.com/in/noman-khan25">
+    <img src="https://img.shields.io/badge/LinkedIn-Noman%20Khan-blue?style=for-the-badge&logo=linkedin" />
+  </a>
 </p>
 
 ---
 
 ## About Me
 
-I am an AI Engineering student with a strong interest in Artificial Intelligence, Machine Learning, and Data Science. I enjoy building intelligent systems, exploring emerging technologies, and applying AI concepts to real-world problems.
+I am an Artificial Intelligence Engineering student with a strong interest in Machine Learning, Deep Learning, and Intelligent Systems. I enjoy building AI-driven solutions and continuously expanding my knowledge of modern AI technologies.
 
-My goal is to develop innovative AI solutions that create meaningful impact and contribute to the advancement of intelligent technologies.
+My goal is to develop practical AI applications that solve real-world problems and contribute to the advancement of intelligent technologies.
+
+---
+
+## Education
+
+**Bachelor of Science in Artificial Intelligence**  
+Sir Syed University of Engineering & Technology
 
 ---
 
@@ -22,13 +32,21 @@ My goal is to develop innovative AI solutions that create meaningful impact and 
 ### Programming Languages
 - Python
 
-### Libraries & Frameworks
+### Data Science & Analysis
 - NumPy
 - Pandas
 - Matplotlib
+
+### Machine Learning
 - Scikit-learn
+- Model Training & Evaluation
+- Data Preprocessing
+- Classification Algorithms
+
+### Deep Learning
 - TensorFlow (Beginner)
 - PyTorch (Beginner)
+- Artificial Neural Networks
 
 ### Tools & Platforms
 - Git
@@ -36,54 +54,64 @@ My goal is to develop innovative AI solutions that create meaningful impact and 
 - Jupyter Notebook
 - VS Code
 
-### Areas of Interest
+---
+
+## Areas of Interest
+
 - Machine Learning
 - Deep Learning
-- Neural Networks
 - Natural Language Processing (NLP)
-- Data Analysis
-- AI Automation
+- Generative AI
+- Intelligent Automation
+- Data Analytics
 
 ---
 
-## Projects
+## Current Projects
 
 ### AI Chat Assistant
-An NLP-based chatbot designed to simulate human-like conversations and automate responses.
+Developing a chatbot using Natural Language Processing techniques.
 
-### Artificial Neural Network (ANN)
-A basic neural network implementation for understanding model architecture, training, and evaluation.
+### Artificial Neural Network Model
+Building and training neural network models for prediction and classification tasks.
 
 ### Machine Learning Classification Models
-Implementation and comparison of different classification algorithms using real datasets.
+Implementing and evaluating supervised learning algorithms on real-world datasets.
 
 ---
 
 ## Currently Learning
 
-- Deep Learning
+- Deep Learning Architectures
 - Computer Vision
-- Advanced Neural Networks
-- Generative AI
+- Advanced NLP
 - PyTorch
+- Generative AI Applications
 
 ---
 
 ## GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Noman-khan25&show_icons=true&theme=default" height="170">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Noman-khan25&layout=compact&theme=default" height="170">
+  <img src="https://github-readme-stats.vercel.app/api?username=Noman-khan25&show_icons=true&theme=github_dark" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Noman-khan25&layout=compact&theme=github_dark" height="165"/>
 </p>
+
+---
+
+## Professional Objective
+
+To become a skilled AI Engineer by applying Machine Learning and Deep Learning techniques to create impactful, scalable, and intelligent solutions.
 
 ---
 
 ## Connect With Me
 
-- GitHub: https://github.com/Noman-khan25
-- LinkedIn: https://www.linkedin.com/in/noman-khan25
-- Instagram: https://www.instagram.com/nomankhann123
+- LinkedIn: www.linkedin.com/in/noman-khan25
+- GitHub: github.com/Noman-khan25
 
 ---
 
-*"Learning today, building the intelligent systems of tomorrow."*
+<p align="center">
+  <b>Building intelligent systems through continuous learning and innovation.</b>
+</p>
