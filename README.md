@@ -1,11 +1,12 @@
-<h1 align="center">🤖 Noman Khan</h1>
-<h3 align="center">AI Engineering Student | Machine Learning Enthusiast | Future AI Engineer</h3>
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/AI%20Enthusiast-00FFFF?style=for-the-badge&logo=icloud&logoColor=black" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-8A2BE2?style=for-the-badge&logo=tensorflow" />
-  <img src="https://img.shields.io/badge/Python%20Coder-FFD43B?style=for-the-badge&logo=python&logoColor=black" />
-</p>
+# 👨‍💻 Noman Khan
+
+### 🧠 AI Engineer in Progress | 🚀 Future Innovator | 🤖 Machine Learning Explorer
+
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=25&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=700&lines=Training+Myself+Like+A+Neural+Network...;Learning+Today+Building+Tomorrow...;Artificial+Intelligence+%7C+Machine+Learning;Future+AI+Engineer+Loading..." />
+
+</div>
 
 ---
 
