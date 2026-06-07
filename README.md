@@ -81,5 +81,4 @@ I’m building my future one AI model at a time ⚡🤖
 ---
 
 <p align="center"><b>⭐ If you like my work, drop a star on my repositories!</b></p>
-ye meri github ki readme hai
 
