@@ -44,7 +44,7 @@
 
 ### Programming Languages
 <p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,c" />
+  <img src="https://skillicons.dev/icons?i=python" />
 </p>
 
 ### AI & Machine Learning
