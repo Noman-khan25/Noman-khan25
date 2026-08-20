@@ -1,106 +1,98 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="100%" height="100%">
   <defs>
-    <linearGradient id="accentLight" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2563EB" />
-      <stop offset="50%" stop-color="#06B6D4" />
-      <stop offset="100%" stop-color="#10B981" />
+    <linearGradient id="cyberGradientLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
     </linearGradient>
-    <filter id="glowLight" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
+
     <style>
-      .text-main-light { font-family: 'Segoe UI', -apple-system, sans-serif; fill: #0F172A; }
-      .text-muted-light { font-family: 'Segoe UI', -apple-system, sans-serif; fill: #475569; font-size: 14px; }
-      .code-font { font-family: 'Fira Code', 'Courier New', monospace; }
-      .pill-light { fill: rgba(15,23,42,0.04); stroke: rgba(15,23,42,0.12); rx: 12px; }
-      .pill-text-light { font-family: 'Segoe UI', sans-serif; font-size: 13px; fill: #2563EB; font-weight: 600; }
+      .text-bold-light { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; fill: #0F172A; }
+      .text-sub-light { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; fill: #475569; font-size: 14px; }
+      .mono { font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; }
+      .pill-light { fill: rgba(241, 245, 249, 0.9); stroke: rgba(37, 99, 235, 0.25); stroke-width: 1.2px; rx: 8px; }
+      .pill-txt-light { font-family: -apple-system, sans-serif; font-size: 12px; fill: #2563EB; font-weight: 600; }
+      .matrix-txt-light { font-size: 9px; fill: #0284C7; opacity: 0.9; letter-spacing: 1px; }
     </style>
   </defs>
 
-  <!-- Background -->
-  <rect width="1180" height="610" rx="20" fill="#FFFFFF"/>
-  
-  <!-- Ambient Glows -->
-  <circle cx="200" cy="150" r="180" fill="#2563EB" opacity="0.08" filter="url(#glowLight)">
-    <animate attributeName="cy" values="150;180;150" dur="8s" repeatCount="indefinite" />
-  </circle>
-  <circle cx="1000" cy="450" r="200" fill="#06B6D4" opacity="0.08" filter="url(#glowLight)">
-    <animate attributeName="cx" values="1000;970;1000" dur="10s" repeatCount="indefinite" />
-  </circle>
+  <!-- Clean Light Background -->
+  <rect width="1180" height="610" rx="16" fill="#FFFFFF"/>
 
   <!-- LEFT PANEL -->
-  <rect x="20" y="20" width="420" height="570" rx="16" fill="#F8FAFC" stroke="rgba(15,23,42,0.08)" stroke-width="1"/>
-  
-  <g transform="translate(45, 50)">
-    <g class="code-font" font-size="12" fill="url(#accentLight)">
-      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="4s" repeatCount="indefinite"/>
-      <text y="20">    .----------------.  .----------------. </text>
-      <text y="38">   | .--------------. || .--------------. |</text>
-      <text y="56">   | |      /\      | || |  ___  ____   | |</text>
-      <text y="74">   | |     /  \     | || | |_  ||_  _|  | |</text>
-      <text y="92">   | |    / /\ \    | || |   | |  | |   | |</text>
-      <text y="110">   | |   / ____ \   | || |   | |  | |   | |</text>
-      <text y="128">   | | _/ /    \ \_ | || |  _| |_| |_   | |</text>
-      <text y="146">   | ||____|  |____|| || | |____|____|  | |</text>
-      <text y="164">   | '--------------' || '--------------' |</text>
-      <text y="182">    '----------------'  '----------------' </text>
+  <rect x="24" y="24" width="440" height="562" rx="14" fill="#F8FAFC" stroke="rgba(15,23,42,0.08)" stroke-width="1"/>
+
+  <g transform="translate(44, 48)">
+    <rect x="0" y="0" width="400" height="280" rx="10" fill="#F1F5F9" stroke="rgba(37, 99, 235, 0.2)"/>
+    
+    <g class="mono matrix-txt-light">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="3s" repeatCount="indefinite"/>
+      <text y="22">0101010  .:::.   .:::.  010101010101010101</text>
+      <text y="38">1010101 ::::::: ::::::: 101010101010101010</text>
+      <text y="54">0101010 ':::::::::::::::::' 01010101010101</text>
+      <text y="70">1010101   ':::::::::::::'   10101010101010</text>
+      <text y="86">010101001   ':::::::::'   1010101010101010</text>
+      <text y="102">10101010101   ':::::'   010101010101010101</text>
+      <text y="118">010101001001    ':'    1010101010101010101</text>
+      <text y="134">------------------------------------------</text>
+      <text y="150">AI CORE ENGINE: ONLINE [RESNET / TRANSFORMER]</text>
+      <text y="166">ANALYZING FACIAL DATA MATRICES... 100%</text>
+      <text y="182">NEURAL NODES CONNECTED: 8,192 PARAMETERS</text>
+      <text y="198">SYSTEM STATUS: OPTIMAL &amp; READY</text>
     </g>
 
-    <rect x="0" y="220" width="370" height="290" rx="12" fill="#F1F5F9" stroke="rgba(37,99,235,0.2)"/>
-    <text x="20" y="260" class="code-font" font-size="13" fill="#059669">&gt; System.initialize()</text>
-    <text x="20" y="295" class="code-font" font-size="13" fill="#475569">&gt; Loading AI Models...</text>
-    <text x="20" y="330" class="code-font" font-size="13" fill="#475569">&gt; Status: <tspan fill="#2563EB">Active &amp; Ready</tspan></text>
-    
-    <line x1="10" y1="230" x2="360" y2="230" stroke="#2563EB" stroke-width="2" opacity="0.2">
-      <animate attributeName="y1" values="230;500;230" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="y2" values="230;500;230" dur="3s" repeatCount="indefinite"/>
+    <line x1="0" y1="10" x2="400" y2="10" stroke="#2563EB" stroke-width="2" opacity="0.4">
+      <animate attributeName="y1" values="10;270;10" dur="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="10;270;10" dur="3.5s" repeatCount="indefinite"/>
     </line>
-    
-    <rect x="20" y="355" width="10" height="18" fill="#2563EB">
-      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-    </rect>
+
+    <rect x="0" y="300" width="400" height="235" rx="10" fill="#F1F5F9" stroke="rgba(15,23,42,0.05)"/>
+    <text x="16" y="335" class="mono" font-size="12" fill="#059669">&gt; System.core.initialized(0x0F20)</text>
+    <text x="16" y="365" class="mono" font-size="12" fill="#475569">&gt; Loading AI &amp; Innovation stack...</text>
+    <text x="16" y="395" class="mono" font-size="12" fill="#2563EB">&gt; Status: Active &amp; Ready</text>
+    <text x="16" y="425" class="mono" font-size="12" fill="#7C3AED">&gt; Model_Library: [ResNet, BERT, LLMs]</text>
   </g>
 
   <!-- RIGHT PANEL -->
-  <rect x="460" y="20" width="700" height="570" rx="16" fill="#F8FAFC" stroke="rgba(15,23,42,0.08)" stroke-width="1"/>
+  <rect x="488" y="24" width="668" height="562" rx="14" fill="#F8FAFC" stroke="rgba(15,23,42,0.08)" stroke-width="1"/>
   
-  <circle cx="490" cy="45" r="6" fill="#EF4444"/>
-  <circle cx="510" cy="45" r="6" fill="#F59E0B"/>
-  <circle cx="530" cy="45" r="6" fill="#10B981"/>
+  <circle cx="520" cy="50" r="5" fill="#EF4444"/>
+  <circle cx="538" cy="50" r="5" fill="#F59E0B"/>
+  <circle cx="556" cy="50" r="5" fill="#10B981"/>
 
-  <g transform="translate(490, 95)">
-    <text x="0" y="0" class="text-main-light" font-size="34" font-weight="bold">Hi 👋 I'm <tspan fill="url(#accentLight)">Noman Khan</tspan></text>
+  <g transform="translate(520, 100)">
+    <text x="0" y="0" class="text-bold-light" font-size="36">Hi ⚡ I'm <tspan fill="url(#cyberGradientLight)">Noman Khan</tspan></text>
     
-    <text x="0" y="40" class="code-font" font-size="18" fill="#2563EB">
-      <tspan>AI Student &amp; Developer</tspan>
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
+    <text x="0" y="38" class="mono" font-size="18" fill="#2563EB">
+      <tspan>AI Engineer &amp; Developer</tspan>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/>
     </text>
 
-    <g transform="translate(0, 85)" class="text-muted-light">
+    <g transform="translate(0, 80)" class="text-sub-light">
       <text x="0" y="0">📍 <tspan fill="#0F172A" font-weight="600">Location:</tspan> Karachi, Pakistan</text>
-      <text x="0" y="30">🎓 <tspan fill="#0F172A" font-weight="600">Education:</tspan> BS Artificial Intelligence</text>
-      <text x="0" y="60">🚀 <tspan fill="#0F172A" font-weight="600">Focus:</tspan> AI / ML &amp; Embedded Systems</text>
-      <text x="0" y="90">💼 <tspan fill="#0F172A" font-weight="600">Portfolio:</tspan> github.com/NomanKhan</text>
+      <text x="0" y="28">🎓 <tspan fill="#0F172A" font-weight="600">Education:</tspan> BS Artificial Intelligence</text>
+      <text x="0" y="56">🚀 <tspan fill="#0F172A" font-weight="600">Focus:</tspan> AI / ML &amp; Embedded Systems</text>
+      <text x="0" y="84">💼 <tspan fill="#0F172A" font-weight="600">Portfolio:</tspan> github.com/Noman-khan25</text>
     </g>
 
-    <text x="0" y="235" class="text-main-light" font-size="18" font-weight="bold">Tech Stack &amp; Skills</text>
+    <line x1="0" y1="205" x2="600" y2="205" stroke="rgba(15,23,42,0.08)" stroke-width="1"/>
+
+    <text x="0" y="240" class="text-bold-light" font-size="18">Tech Stack &amp; Frameworks</text>
     
-    <g transform="translate(0, 255)">
-      <rect x="0" y="0" width="90" height="32" class="pill-light"/><text x="45" y="21" class="pill-text-light" text-anchor="middle">Python</text>
-      <rect x="102" y="0" width="95" height="32" class="pill-light"/><text x="149" y="21" class="pill-text-light" text-anchor="middle">PyTorch</text>
-      <rect x="209" y="0" width="80" height="32" class="pill-light"/><text x="249" y="21" class="pill-text-light" text-anchor="middle">C++</text>
-      <rect x="301" y="0" width="90" height="32" class="pill-light"/><text x="346" y="21" class="pill-text-light" text-anchor="middle">React</text>
-      <rect x="403" y="0" width="80" height="32" class="pill-light"/><text x="443" y="21" class="pill-text-light" text-anchor="middle">Git</text>
+    <g transform="translate(0, 260)">
+      <rect x="0" y="0" width="90" height="34" class="pill-light"/><text x="45" y="22" class="pill-txt-light" text-anchor="middle">Python</text>
+      <rect x="100" y="0" width="95" height="34" class="pill-light"/><text x="147" y="22" class="pill-txt-light" text-anchor="middle">PyTorch</text>
+      <rect x="205" y="0" width="80" height="34" class="pill-light"/><text x="245" y="22" class="pill-txt-light" text-anchor="middle">C++</text>
+      <rect x="295" y="0" width="90" height="34" class="pill-light"/><text x="340" y="22" class="pill-txt-light" text-anchor="middle">OpenCV</text>
+      <rect x="395" y="0" width="105" height="34" class="pill-light"/><text x="447" y="22" class="pill-txt-light" text-anchor="middle">TensorFlow</text>
 
-      <rect x="0" y="44" width="95" height="32" class="pill-light"/><text x="47" y="65" class="pill-text-light" text-anchor="middle">Docker</text>
-      <rect x="107" y="44" width="110" height="32" class="pill-light"/><text x="162" y="65" class="pill-text-light" text-anchor="middle">OpenCV</text>
-      <rect x="229" y="44" width="115" height="32" class="pill-light"/><text x="286" y="65" class="pill-text-light" text-anchor="middle">TensorFlow</text>
+      <rect x="0" y="46" width="90" height="34" class="pill-light"/><text x="45" y="68" class="pill-txt-light" text-anchor="middle">Docker</text>
+      <rect x="100" y="46" width="80" height="34" class="pill-light"/><text x="140" y="68" class="pill-txt-light" text-anchor="middle">Git</text>
+      <rect x="190" y="46" width="95" height="34" class="pill-light"/><text x="237" y="68" class="pill-txt-light" text-anchor="middle">React</text>
+      <rect x="295" y="46" width="115" height="34" class="pill-light"/><text x="352" y="68" class="pill-txt-light" text-anchor="middle">Scikit-Learn</text>
     </g>
 
-    <g transform="translate(0, 385)">
-      <line x1="0" y1="0" x2="640" y2="0" stroke="rgba(15,23,42,0.08)" stroke-width="1"/>
-      <text x="0" y="35" class="text-muted-light" font-size="13">⚡ Building intelligent systems &amp; modern software</text>
+    <g transform="translate(0, 390)">
+      <text x="0" y="20" class="mono" font-size="13" fill="#059669">✦ Building smart models &amp; smarter solutions</text>
     </g>
   </g>
 </svg>
