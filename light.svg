@@ -11,33 +11,37 @@
       .mono { font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; }
       .pill-light { fill: rgba(241, 245, 249, 0.9); stroke: rgba(37, 99, 235, 0.25); stroke-width: 1.2px; rx: 8px; }
       .pill-txt-light { font-family: -apple-system, sans-serif; font-size: 12px; fill: #2563EB; font-weight: 600; }
-      .matrix-txt-light { font-size: 9px; fill: #0284C7; opacity: 0.9; letter-spacing: 1px; }
+      .matrix-txt-light { font-size: 10px; fill: #0284C7; opacity: 0.95; letter-spacing: 0.8px; font-weight: 600; }
     </style>
   </defs>
 
-  <!-- Clean Light Background -->
   <rect width="1180" height="610" rx="16" fill="#FFFFFF"/>
 
   <!-- LEFT PANEL -->
   <rect x="24" y="24" width="440" height="562" rx="14" fill="#F8FAFC" stroke="rgba(15,23,42,0.08)" stroke-width="1"/>
 
   <g transform="translate(44, 48)">
-    <rect x="0" y="0" width="400" height="280" rx="10" fill="#F1F5F9" stroke="rgba(37, 99, 235, 0.2)"/>
+    <rect x="0" y="0" width="400" height="280" rx="10" fill="#F1F5F9" stroke="rgba(37, 99, 235, 0.25)"/>
     
     <g class="mono matrix-txt-light">
-      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="3s" repeatCount="indefinite"/>
-      <text y="22">0101010  .:::.   .:::.  010101010101010101</text>
-      <text y="38">1010101 ::::::: ::::::: 101010101010101010</text>
-      <text y="54">0101010 ':::::::::::::::::' 01010101010101</text>
-      <text y="70">1010101   ':::::::::::::'   10101010101010</text>
-      <text y="86">010101001   ':::::::::'   1010101010101010</text>
-      <text y="102">10101010101   ':::::'   010101010101010101</text>
-      <text y="118">010101001001    ':'    1010101010101010101</text>
-      <text y="134">------------------------------------------</text>
-      <text y="150">AI CORE ENGINE: ONLINE [RESNET / TRANSFORMER]</text>
-      <text y="166">ANALYZING FACIAL DATA MATRICES... 100%</text>
-      <text y="182">NEURAL NODES CONNECTED: 8,192 PARAMETERS</text>
-      <text y="198">SYSTEM STATUS: OPTIMAL &amp; READY</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2; 0,0" dur="4s" repeatCount="indefinite"/>
+      <text y="18">0101  .::+#%@@@@@@@@@@%#+::.  01010101</text>
+      <text y="32">101  :#@@@@@@@@@@@@@@@@@@#:  1010101</text>
+      <text y="46">010 :#@@@@@@@@@@@@@@@@@@@@#: 010101</text>
+      <text y="60">101 %@@@@@@@@@@@@@@@@@@@@@@% 101010</text>
+      <text y="74">010 @@@@@%#**+====+**#%@@@@@@ 010101</text>
+      <text y="88">101 @@@#:.  :010101:  .:#@@@ 101010</text>
+      <text y="102">010 @@*:   :10101010:   :*@@ 010101</text>
+      <text y="116">101 @#   .:#%@@@@@@%#:.   #@ 101010</text>
+      <text y="130">010 @#:  :*%@@@@@@@@%*:  :#@ 010101</text>
+      <text y="144">101 @@#:  .:+#%@@@@%#+:.  :#@@ 101010</text>
+      <text y="158">0101 @@@%+:  .::::::.  :+%@@@ 010101</text>
+      <text y="172">10101 %@@@@%#+======+#%@@@@% 1010101</text>
+      <text y="186">010101 :%@@@@@@@@@@@@@@@@%: 01010101</text>
+      <text y="200">1010101 :#@@@@@@@@@@@@@@#: 10101010</text>
+      <text y="218">------------------------------------------</text>
+      <text y="234" fill="#059669">PORTRAIT MAPPED: NOMAN KHAN [BS AI]</text>
+      <text y="250" fill="#2563EB">FACIAL VECTOR MATRIX: 100% MATCH</text>
     </g>
 
     <line x1="0" y1="10" x2="400" y2="10" stroke="#2563EB" stroke-width="2" opacity="0.4">
@@ -47,7 +51,7 @@
 
     <rect x="0" y="300" width="400" height="235" rx="10" fill="#F1F5F9" stroke="rgba(15,23,42,0.05)"/>
     <text x="16" y="335" class="mono" font-size="12" fill="#059669">&gt; System.core.initialized(0x0F20)</text>
-    <text x="16" y="365" class="mono" font-size="12" fill="#475569">&gt; Loading AI &amp; Innovation stack...</text>
+    <text x="16" y="365" class="mono" font-size="12" fill="#475569">&gt; Facial vector loaded successfully</text>
     <text x="16" y="395" class="mono" font-size="12" fill="#2563EB">&gt; Status: Active &amp; Ready</text>
     <text x="16" y="425" class="mono" font-size="12" fill="#7C3AED">&gt; Model_Library: [ResNet, BERT, LLMs]</text>
   </g>

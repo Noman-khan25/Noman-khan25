@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cyberGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE">
+        <animate attributeName="stop-color" values="#22D3EE;#7C3AED;#10B981;#22D3EE" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#7C3AED">
+        <animate attributeName="stop-color" values="#7C3AED;#10B981;#22D3EE;#7C3AED" dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="glowBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#7C3AED" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .text-bold { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; fill: #F8FAFC; }
+      .text-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; fill: #94A3B8; font-size: 14px; }
+      .mono { font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; }
+      .pill { fill: rgba(15, 23, 42, 0.6); stroke: rgba(34, 211, 238, 0.3); stroke-width: 1.2px; rx: 8px; }
+      .pill-txt { font-family: -apple-system, sans-serif; font-size: 12px; fill: #E2E8F0; font-weight: 600; }
+      .matrix-txt { font-size: 10px; fill: #22D3EE; opacity: 0.95; letter-spacing: 0.8px; font-weight: 600; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1180" height="610" rx="16" fill="#030712"/>
+
+  <!-- Orbs -->
+  <circle cx="200" cy="180" r="160" fill="#7C3AED" opacity="0.18" filter="url(#neonGlow)"/>
+  <circle cx="950" cy="420" r="180" fill="#22D3EE" opacity="0.14" filter="url(#neonGlow)"/>
+
+  <!-- LEFT PANEL: Facial Matrix Terminal -->
+  <rect x="24" y="24" width="440" height="562" rx="14" fill="#0B0F19" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="24" y="24" width="440" height="562" rx="14" fill="none" stroke="url(#glowBorder)" stroke-width="1" opacity="0.6"/>
+
+  <g transform="translate(44, 48)">
+    <!-- Terminal Screen -->
+    <rect x="0" y="0" width="400" height="280" rx="10" fill="#020617" stroke="rgba(34, 211, 238, 0.25)"/>
+    
+    <!-- Exact Facial ASCII / Matrix Portrait Map -->
+    <g class="mono matrix-txt">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2; 0,0" dur="4s" repeatCount="indefinite"/>
+      <text y="18">0101  .::+#%@@@@@@@@@@%#+::.  01010101</text>
+      <text y="32">101  :#@@@@@@@@@@@@@@@@@@#:  1010101</text>
+      <text y="46">010 :#@@@@@@@@@@@@@@@@@@@@#: 010101</text>
+      <text y="60">101 %@@@@@@@@@@@@@@@@@@@@@@% 101010</text>
+      <text y="74">010 @@@@@%#**+====+**#%@@@@@@ 010101</text>
+      <text y="88">101 @@@#:.  :010101:  .:#@@@ 101010</text>
+      <text y="102">010 @@*:   :10101010:   :*@@ 010101</text>
+      <text y="116">101 @#   .:#%@@@@@@%#:.   #@ 101010</text>
+      <text y="130">010 @#:  :*%@@@@@@@@%*:  :#@ 010101</text>
+      <text y="144">101 @@#:  .:+#%@@@@%#+:.  :#@@ 101010</text>
+      <text y="158">0101 @@@%+:  .::::::.  :+%@@@ 010101</text>
+      <text y="172">10101 %@@@@%#+======+#%@@@@% 1010101</text>
+      <text y="186">010101 :%@@@@@@@@@@@@@@@@%: 01010101</text>
+      <text y="200">1010101 :#@@@@@@@@@@@@@@#: 10101010</text>
+      <text y="218">------------------------------------------</text>
+      <text y="234" fill="#10B981">PORTRAIT MAPPED: NOMAN KHAN [BS AI]</text>
+      <text y="250" fill="#7C3AED">FACIAL VECTOR MATRIX: 100% MATCH</text>
+    </g>
+
+    <!-- Scanline Sweep -->
+    <line x1="0" y1="10" x2="400" y2="10" stroke="#22D3EE" stroke-width="2" opacity="0.5" filter="url(#neonGlow)">
+      <animate attributeName="y1" values="10;270;10" dur="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="10;270;10" dur="3.5s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- Bottom Log Terminal -->
+    <rect x="0" y="300" width="400" height="235" rx="10" fill="#020617" stroke="rgba(255,255,255,0.05)"/>
+    <text x="16" y="335" class="mono" font-size="12" fill="#10B981">&gt; System.core.initialized(0x0F20)</text>
+    <text x="16" y="365" class="mono" font-size="12" fill="#94A3B8">&gt; Facial vector loaded successfully</text>
+    <text x="16" y="395" class="mono" font-size="12" fill="#22D3EE">&gt; Status: Active &amp; Ready</text>
+    <text x="16" y="425" class="mono" font-size="12" fill="#7C3AED">&gt; Model_Library: [ResNet, BERT, LLMs]</text>
+    
+    <rect x="16" y="445" width="8" height="15" fill="#22D3EE">
+      <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- RIGHT PANEL -->
+  <rect x="488" y="24" width="668" height="562" rx="14" fill="#0B0F19" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  
+  <circle cx="520" cy="50" r="5" fill="#EF4444"/>
+  <circle cx="538" cy="50" r="5" fill="#F59E0B"/>
+  <circle cx="556" cy="50" r="5" fill="#10B981"/>
+
+  <g transform="translate(520, 100)">
+    <text x="0" y="0" class="text-bold" font-size="36">Hi ⚡ I'm <tspan fill="url(#cyberGradient)">Noman Khan</tspan></text>
+    
+    <text x="0" y="38" class="mono" font-size="18" fill="#22D3EE">
+      <tspan>AI Engineer &amp; Developer</tspan>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/>
+    </text>
+
+    <g transform="translate(0, 80)" class="text-sub">
+      <text x="0" y="0">📍 <tspan fill="#F8FAFC" font-weight="600">Location:</tspan> Karachi, Pakistan</text>
+      <text x="0" y="28">🎓 <tspan fill="#F8FAFC" font-weight="600">Education:</tspan> BS Artificial Intelligence</text>
+      <text x="0" y="56">🚀 <tspan fill="#F8FAFC" font-weight="600">Focus:</tspan> AI / ML &amp; Embedded Systems</text>
+      <text x="0" y="84">💼 <tspan fill="#F8FAFC" font-weight="600">Portfolio:</tspan> github.com/Noman-khan25</text>
+    </g>
+
+    <line x1="0" y1="205" x2="600" y2="205" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+    <text x="0" y="240" class="text-bold" font-size="18">Tech Stack &amp; Frameworks</text>
+    
+    <g transform="translate(0, 260)">
+      <rect x="0" y="0" width="90" height="34" class="pill"/><text x="45" y="22" class="pill-txt" text-anchor="middle">Python</text>
+      <rect x="100" y="0" width="95" height="34" class="pill"/><text x="147" y="22" class="pill-txt" text-anchor="middle">PyTorch</text>
+      <rect x="205" y="0" width="80" height="34" class="pill"/><text x="245" y="22" class="pill-txt" text-anchor="middle">C++</text>
+      <rect x="295" y="0" width="90" height="34" class="pill"/><text x="340" y="22" class="pill-txt" text-anchor="middle">OpenCV</text>
+      <rect x="395" y="0" width="105" height="34" class="pill"/><text x="447" y="22" class="pill-txt" text-anchor="middle">TensorFlow</text>
+
+      <rect x="0" y="46" width="90" height="34" class="pill"/><text x="45" y="68" class="pill-txt" text-anchor="middle">Docker</text>
+      <rect x="100" y="46" width="80" height="34" class="pill"/><text x="140" y="68" class="pill-txt" text-anchor="middle">Git</text>
+      <rect x="190" y="46" width="95" height="34" class="pill"/><text x="237" y="68" class="pill-txt" text-anchor="middle">React</text>
+      <rect x="295" y="46" width="115" height="34" class="pill"/><text x="352" y="68" class="pill-txt" text-anchor="middle">Scikit-Learn</text>
+    </g>
+
+    <g transform="translate(0, 390)">
+      <text x="0" y="20" class="mono" font-size="13" fill="#10B981">✦ Building smart models &amp; smarter solutions</text>
+    </g>
+  </g>
+</svg>
