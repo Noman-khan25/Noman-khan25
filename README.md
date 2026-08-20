@@ -2,9 +2,7 @@
 
 <div align="center">
 
-# 👨‍💻 Noman Khan
-
-### 🧠 AI Engineer in Progress | 🚀 Future Innovator | 🤖 Machine Learning Explorer
+### 🧠 AI in Progress | 🚀 Building smart AI project | 🤖 Machine Learning Explorer
 
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=25&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=700&lines=Training+Myself+Like+A+Neural+Network...;Learning+Today+Building+Tomorrow...;Artificial+Intelligence+%7C+Machine+Learning;Future+AI+Engineer+Loading..." />
 
