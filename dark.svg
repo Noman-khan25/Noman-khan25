@@ -1,4 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" role="img" aria-label="Noman Khan animated GitHub profile banner">
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1180" height="610"
+     viewBox="0 0 1180 610"
+     role="img"
+     aria-label="Noman Khan animated GitHub profile banner">
 <defs>
   <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
     <stop offset="0%" stop-color="#7C3AED"><animate attributeName="stop-color" values="#7C3AED;#22D3EE;#10B981;#7C3AED" dur="8s" repeatCount="indefinite"/></stop>
@@ -32,8 +37,90 @@
     <animate attributeName="stroke-dashoffset" from="0" to="-1280" dur="6s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- LEFT ASCII TERMINAL -->
-  <g transform="translate(45 55)">
+ <!-- LEFT PROFILE PHOTO -->
+<g transform="translate(45 55)">
+  <rect width="390" height="500" rx="22"
+        fill="#030712"
+        fill-opacity=".60"
+        stroke="rgba(255,255,255,.10)"/>
+
+  <circle cx="195" cy="245" r="160"
+          fill="#22D3EE"
+          opacity=".12"
+          filter="url(#soft)">
+    <animate attributeName="r"
+             values="155;165;155"
+             dur="3s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Gradient glowing border -->
+  <circle cx="195" cy="245" r="150"
+          fill="none"
+          stroke="url(#accent)"
+          stroke-width="6"/>
+
+  <!-- Profile Photo -->
+  <clipPath id="profileClip">
+    <circle cx="195" cy="245" r="145"/>
+  </clipPath>
+
+  <image
+    x="50"
+    y="100"
+    width="290"
+    height="290"
+    preserveAspectRatio="xMidYMid slice"
+    clip-path="url(#profileClip)"
+    href="https://raw.githubusercontent.com/Noman-khan25/Noman-khan25/main/profile.jpg"
+    xlink:href="https://raw.githubusercontent.com/Noman-khan25/Noman-khan25/main/profile.jpg"/>
+
+  <!-- Scanning line -->
+  <rect x="50" y="100"
+        width="290"
+        height="4"
+        fill="url(#accent)"
+        opacity=".95">
+    <animate attributeName="y"
+             values="100;390;100"
+             dur="3s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Photo glow -->
+  <circle cx="195" cy="245" r="145"
+          fill="none"
+          stroke="#22D3EE"
+          stroke-width="2"
+          opacity=".6">
+    <animate attributeName="opacity"
+             values=".25;.8;.25"
+             dur="2s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <text x="30" y="425"
+        fill="#F8FAFC"
+        font-family="sans-serif"
+        font-size="22"
+        font-weight="700">
+    Noman Khan
+  </text>
+
+  <text x="30" y="450"
+        fill="url(#accent)"
+        font-family="monospace"
+        font-size="13">
+    AI ENGINEER • ML ENTHUSIAST
+  </text>
+
+  <text x="30" y="478"
+        fill="#94A3B8"
+        font-family="sans-serif"
+        font-size="12">
+    Building intelligent systems.
+  </text>
+</g>
     <rect width="390" height="500" rx="22" fill="#030712" fill-opacity=".60" stroke="rgba(255,255,255,.10)"/>
     <circle cx="25" cy="25" r="5" fill="#FF5F57"/><circle cx="42" cy="25" r="5" fill="#FEBC2E"/><circle cx="59" cy="25" r="5" fill="#28C840"/>
     <text x="82" y="29" fill="#94A3B8" font-family="monospace" font-size="13">noman@ai:~</text>
