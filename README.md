@@ -28,17 +28,19 @@
 
 ## 🌌 About Me
 
-🎓 BS Artificial Intelligence Student
+🎓 **Bachelor of Artificial Intelligence (BS AI)**
+**Sir Syed University of Engineering & Technology | 2025–2029**
 
-🤖 Passionate about Artificial Intelligence, Machine Learning, and Data Science
+🤖 Passionate about **Artificial Intelligence, Machine Learning, and Data Science**
 
-🧠 Currently learning Deep Learning, Neural Networks, and NLP
+🧠 Currently exploring **Deep Learning, Neural Networks, NLP, and Generative AI**
 
-⚡ Building intelligent systems and AI-powered applications
+⚡ Building **intelligent systems and AI-powered applications**
 
-🚀 Goal: Become a professional AI Engineer and contribute to cutting-edge AI innovations
+🚀 Aspiring **AI Engineer** focused on developing innovative, real-world AI solutions
 
-💡 *"Transforming ideas into intelligent solutions through AI."*
+💡 *“Transforming ideas into intelligent solutions through Artificial Intelligence.”*
+
 
 ---
 
