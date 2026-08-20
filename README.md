@@ -28,19 +28,14 @@
 
 ## 🌌 About Me
 
-🎓 **Bachelor of Artificial Intelligence (BS AI)**
-**Sir Syed University of Engineering & Technology | 2025–2029**
+🎓 **Education**
+Bachelor of Artificial Intelligence (BS AI) at **Sir Syed University of Engineering & Technology | 2025–2029**.
 
-🤖 Passionate about **Artificial Intelligence, Machine Learning, and Data Science**
+🤖 **Skills & Interests**
+Interested in **AI, Machine Learning, Data Science, Deep Learning, NLP, and Generative AI**. Passionate about building intelligent applications.
 
-🧠 Currently exploring **Deep Learning, Neural Networks, NLP, and Generative AI**
-
-⚡ Building **intelligent systems and AI-powered applications**
-
-🚀 Aspiring **AI Engineer** focused on developing innovative, real-world AI solutions
-
-💡 *“Transforming ideas into intelligent solutions through Artificial Intelligence.”*
-
+🚀 **Goal**
+Aspiring to become a **professional AI Engineer** and develop innovative, real-world AI solutions.
 
 ---
 
