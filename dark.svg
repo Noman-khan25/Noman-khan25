@@ -48,7 +48,7 @@
       <animate attributeName="y" values="100;345;100" dur="3s" repeatCount="indefinite"/>
     </rect>
     <text x="30" y="425" fill="#F8FAFC" font-family="sans-serif" font-size="22" font-weight="700">Noman Khan</text>
-    <text x="30" y="450" fill="url(#accent)" font-family="monospace" font-size="13">AI ENGINEER • ML ENTHUSIAST</text>
+    <text x="30" y="450" fill="url(#accent)" font-family="monospace" font-size="13">AI ENGINEER </text>
     <text x="30" y="478" fill="#94A3B8" font-family="sans-serif" font-size="12">Building intelligent systems.</text>
   </g>
 
@@ -58,8 +58,8 @@
     <circle cx="25" cy="25" r="5" fill="#FF5F57"/><circle cx="42" cy="25" r="5" fill="#FEBC2E"/><circle cx="59" cy="25" r="5" fill="#28C840"/>
     <text x="82" y="29" fill="#94A3B8" font-family="monospace" font-size="13">profile.md</text>
 
-    <text x="35" y="92" fill="#94A3B8" font-family="sans-serif" font-size="16">Hi 👋</text>
-    <text x="35" y="137" fill="#F8FAFC" font-family="sans-serif" font-size="38" font-weight="700">I'm Noman Khan</text>
+    <text x="35" y="92" fill="#94A3B8" font-family="sans-serif" font-size="16">Hey 👋</text>
+    <text x="35" y="137" fill="#F8FAFC" font-family="sans-serif" font-size="38" font-weight="700">I'm Noman khan</text>
     <rect x="35" y="153" width="2" height="28" fill="url(#accent)">
       <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
     </rect>
@@ -68,10 +68,10 @@
       <animate attributeName="opacity" values="0;1" begin="1.7s" dur=".7s" fill="freeze"/>
     </text>
 
-    <g font-family="sans-serif" font-size="14">
+    <g font-family="sans-serif" font-size="16">
       <text x="35" y="225" fill="#94A3B8">📍 Karachi, Pakistan</text>
-      <text x="35" y="253" fill="#94A3B8">🎓 BS Artificial Intelligence</text>
-      <text x="35" y="281" fill="#94A3B8">⚡ Building AI &amp; Machine Learning projects</text>
+      <text x="35" y="253" fill="#94A3B8">🎓 BS Artificial Intelligence at SSUET</text>
+      <text x="35" y="281" fill="#94A3B8">⚡ Building AI &amp; projects</text>
     </g>
 
     <text x="35" y="323" fill="#F8FAFC" font-family="sans-serif" font-size="15" font-weight="700">TECH STACK</text>
