@@ -1,3 +1,5 @@
+<img src="./dark.svg" width="100%">
+
 <div align="center">
 
 # 👨‍💻 Noman Khan
